@@ -1,17 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
 
-#myVideo{
-
-    top: 0;
-    right: 0;
-    width: 100%;
+.card{
+    width: 200px;
+    height:300px;
 }
-.content {
-    position: fixed;
-    bottom: 0;
-    background:black(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding:200px;
-    font-weight: bolder !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+.card:hover{
+    box-shadow: 1px 2px 3px 2px;
+    transform:skewY(5deg)
+}
+.row{
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+}
+
+.card{
+    background-color: transparent;
+}
+#femme{
+    background-color: pink;
+    color: white;
+}
+#femme:hover{
+    box-shadow: 1px 2px 3px 2px black;
+}
+.home{
+    background-image: url(https://i.postimg.cc/26DV24m6/julius-drost-uumkda-VS8r-M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+#nav{
+    color: white;
+}
+#home{
+    text-align: left;
+    font-family: 'Teko', sans-serif;
+    margin: auto;
+    margin-left: 12px;
+}
+h5{
+    text-align: right;
+}
+
+h6{
+    margin-left: 12px;
+    font-family: 'Rajdhani', sans-serif;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+.blue{
+    text-decoration: none;
+    ;
+}
+.about{
+    font-size: smaller;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    font-weight: bolder;
+}
+.box{
+    box-shadow: 1px 2px 1px 2px silver;
+}
+.boxy{
+    box-shadow: 1px 2px 1px 2px pink;
+}
