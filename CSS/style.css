@@ -33,7 +33,7 @@ h1{
     height: 100vh;
     color: white;
 }
-#nav{
+.navb:hover{
     color: white;
 }
 #home{
